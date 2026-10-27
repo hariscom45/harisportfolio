@@ -30,10 +30,9 @@
                 <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                <li class="nav-item ms-lg-2"><a class="btn btn-sm btn-primary-custom" href="#contact">Let's Talk</a></li>
             </ul>
         </div>
     </div>
@@ -47,7 +46,7 @@
             <div class="col-lg-7 mb-5 mb-lg-0">
             <!-- Eyebrow Badge -->
             <div class="eyebrow-badge reveal delay-1 mb-3">
-                <i class="bi bi-code-slash me-1"></i> Full Stack / Embedded Developer
+                <i class="bi bi-code-slash me-1"></i> Web Development / Embedded Developer
             </div>
 
             <!-- Title -->
@@ -56,13 +55,13 @@
             </h1>
 
             <!-- Subtitle & Copy -->
-            <h2 class="hero-subtitle reveal delay-2">Full Stack Developer | Embedded Systems | IoT</h2>
+            <h2 class="hero-subtitle reveal delay-2">Web Development | Embedded Systems | IoT</h2>
             <p class="hero-copy reveal delay-2">
                 D4 Informatics Engineering graduate focused on building web applications, embedded systems, and IoT solutions.
             </p>
 
             <!-- STATISTIK BADGE (Dengan Efek Timbul) -->
-            <div class="hero-stats d-flex gap-3 my-4 reveal delay-2">
+            {{-- <div class="hero-stats d-flex gap-3 my-4 reveal delay-2">
                 <div class="stat-card">
                     <h3>2+</h3>
                     <p>Years Exp.</p>
@@ -75,14 +74,16 @@
                     <h3>5+</h3>
                     <p>Certifications</p>
                 </div>
-            </div>
+            </div> --}}
 
             <!-- TOMBOL CTA -->
             <div class="d-flex flex-wrap gap-3 reveal delay-3">
                 <a href="#contact" class="btn btn-primary-custom btn-lg">
                     <i class="bi bi-send-fill me-2"></i> Hire Me
                 </a>
-                <a href="#" class="btn btn-outline-custom btn-lg">
+                <a href="{{ asset('files/CV-Haris-Suhud.pdf') }}"
+                    class="btn btn-outline-custom btn-lg"
+                    download="CV-Muhammad-Haris-Suhud.pdf">
                     <i class="bi bi-download me-2"></i> Download CV
                 </a>
             </div>
@@ -112,7 +113,7 @@
                         <h4 class="profile-name">Muhammad Haris Suhud</h4>
                         <p class="profile-handle">@_harissuhud03</p>
                         <p class="profile-location"><i class="bi bi-geo-alt-fill text-emerald me-1"></i> Pasuruan, Indonesia</p>
-                        <span class="profile-role">Full Stack & Embedded Developer</span>
+                        <span class="profile-role">Web Development & Embedded Systems</span>
                     </div>
                 </div>
             </div>
@@ -150,7 +151,7 @@
                             <i class="bi bi-code-slash me-2"></i>Building useful things with code & technology.
                         </h3>
                         <p class="section-copy text-white mb-3" style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
-                            I am a Full-Stack Web Developer and Embedded Systems & IoT Developer with an educational background in Informatics Engineering. I have experience developing web applications, programming microcontrollers, and integrating sensors and devices into IoT projects.
+                            I am a Web Developer and Embedded Systems & IoT Developer with an educational background in Informatics Engineering. I have experience developing web applications, programming microcontrollers, and integrating sensors and devices into IoT projects.
                         </p>
                         <p class="section-copy text-white mb-3" style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
                             I enjoy building practical digital solutions that combine software and hardware. With experience in Laravel, CodeIgniter, PHP, JavaScript, MySQL, ESP8266, ESP32, LattePandaV2 and embedded systems, I am always enthusiastic about learning new technologies and transforming ideas into functional, reliable solutions.
@@ -164,7 +165,9 @@
                         </h5>
 
                         <div class="row g-3 text-start fs-7">
-                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Web Development</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Full Stack Development</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Front End Development</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Back End Development</div>
                             <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Embedded Systems</div>
                             <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>IoT Integration</div>
                             <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Project Management</div>
@@ -192,7 +195,7 @@
         <div class="skill-category reveal">
             <div class="skill-category-title">
                 <i class="bi bi-palette-fill"></i>
-                <span>Frontend Development</span>
+                <span>Front End Development</span>
             </div>
 
             <div class="tech-grid-new">
@@ -245,7 +248,7 @@
         <div class="skill-category reveal">
             <div class="skill-category-title">
                 <i class="bi bi-server"></i>
-                <span>Backend Development</span>
+                <span>Back End Development</span>
             </div>
 
             <div class="tech-grid-new">
@@ -392,36 +395,11 @@
     </div>
 </section>
 
-<section id="projects" class="section section-soft">
-    <div class="container">
-        <div class="section-heading reveal">
-            <div class="section-label">03 — Projects</div>
-            <h2 class="section-title">Selected work.</h2>
-            <p class="section-copy">Beberapa project yang dapat kamu jadikan showcase. Ganti deskripsi, gambar, dan link sesuai project aslimu.</p>
-        </div>
-        <div class="row g-4">
-            @foreach($projects as $project)
-            <div class="col-md-6">
-                <article class="project-card glass-card reveal delay-{{ $loop->index }}">
-                    <div class="project-visual"><i class="bi {{ $project['icon'] }}"></i><span>{{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}</span></div>
-                    <div class="p-4">
-                        <div class="project-category">{{ $project['category'] }}</div>
-                        <h3>{{ $project['title'] }}</h3>
-                        <p class="section-copy">{{ $project['description'] }}</p>
-                        <div class="tags mb-4">@foreach($project['tech'] as $tech)<span>{{ $tech }}</span>@endforeach</div>
-                        <a href="{{ $project['link'] }}" class="project-link">View Project <i class="bi bi-arrow-up-right"></i></a>
-                    </div>
-                </article>
-            </div>
-            @endforeach
-        </div>
-    </div>
-</section>
 
 <section id="experience" class="section">
     <div class="container">
         <div class="section-heading reveal">
-            <div class="section-label">04 — Experience</div>
+            <div class="section-label">03 — Experience</div>
             <h2 class="section-title">Where I've learned & worked.</h2>
         </div>
         <div class="timeline">
@@ -439,7 +417,229 @@
     </div>
 </section>
 
-<section class="section section-soft">
+
+<section id="projects" class="section section-soft">
+    <div class="container">
+
+        <div class="section-heading reveal">
+            <div class="section-label">04 — Projects</div>
+            <h2 class="section-title">Selected work.</h2>
+            <p class="section-copy">
+                Kumpulan project yang telah saya kembangkan dalam bidang
+                Web Development, Internet of Things, Robotics,
+                Embedded Systems, dan Machine Learning.
+            </p>
+        </div>
+
+        <!-- Project Category Filter -->
+        <div class="project-filter-wrapper reveal">
+            <div class="project-filter-scroll">
+                <button class="project-filter active" data-filter="all">
+                    All Projects
+                </button>
+
+                <button class="project-filter" data-filter="web">
+                    Web Development
+                </button>
+
+                <button class="project-filter" data-filter="iot">
+                    Internet of Things
+                </button>
+
+                <button class="project-filter" data-filter="robotics">
+                    Robotics
+                </button>
+
+                <button class="project-filter" data-filter="embedded">
+                    Embedded Systems
+                </button>
+
+                <button class="project-filter" data-filter="machine">
+                    Machine Learning
+                </button>
+            </div>
+        </div>
+
+        <!-- Project Cards -->
+        <div class="row g-4" id="projectContainer">
+
+            @foreach($projects as $project)
+
+                @php
+                    $category = strtolower($project['category']);
+                    $filters = [];
+
+                    if (str_contains($category, 'web')) {
+                        $filters[] = 'web';
+                    }
+
+                    if (
+                        str_contains($category, 'iot') ||
+                        str_contains($category, 'internet of things')
+                    ) {
+                        $filters[] = 'iot';
+                    }
+
+                    if (str_contains($category, 'robotics')) {
+                        $filters[] = 'robotics';
+                    }
+
+                    if (str_contains($category, 'embedded')) {
+                        $filters[] = 'embedded';
+                    }
+
+                    if (str_contains($category, 'machine learning')) {
+                        $filters[] = 'machine';
+                    }
+                @endphp
+
+                <div
+                    class="col-md-6 project-item"
+                    data-category="{{ implode(' ', $filters) }}"
+                >
+
+                    <article class="project-card glass-card reveal delay-{{ $loop->index }}">
+
+                        <!-- Project Image & Video -->
+                        <div class="project-visual">
+
+                            <div class="project-image-wrapper">
+
+                                <div id="projectCarousel{{ $loop->iteration }}"
+                                    class="carousel slide project-carousel"
+                                    data-bs-ride="carousel"
+                                    data-bs-interval="3500">
+
+                                    <div class="carousel-inner">
+
+                                        @foreach ($project['images'] as $index => $image)
+
+                                            <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
+
+                                                @if (in_array(strtolower(pathinfo($image, PATHINFO_EXTENSION)), ['mp4', 'webm', 'ogg']))
+
+                                                    <!-- Video Project -->
+                                                    <video
+                                                        class="project-image project-video"
+                                                        controls
+                                                        playsinline
+                                                        preload="metadata"
+                                                    >
+                                                        <source src="{{ asset($image) }}">
+                                                        Browser tidak mendukung video.
+                                                    </video>
+
+                                                @else
+
+                                                    <!-- Image Project -->
+                                                    <img
+                                                        src="{{ asset($image) }}"
+                                                        alt="{{ $project['title'] }} - Image {{ $index + 1 }}"
+                                                        class="project-image"
+                                                        loading="lazy"
+                                                    >
+
+                                                @endif
+
+                                            </div>
+
+                                        @endforeach
+
+                                    </div>
+
+                                    @if (count($project['images']) > 1)
+
+                                        <!-- Tombol Sebelumnya -->
+                                        <button class="carousel-control-prev"
+                                                type="button"
+                                                data-bs-target="#projectCarousel{{ $loop->iteration }}"
+                                                data-bs-slide="prev">
+
+                                            <i class="bi bi-chevron-left"></i>
+
+                                            <span class="visually-hidden">Previous</span>
+
+                                        </button>
+
+                                        <!-- Tombol Selanjutnya -->
+                                        <button class="carousel-control-next"
+                                                type="button"
+                                                data-bs-target="#projectCarousel{{ $loop->iteration }}"
+                                                data-bs-slide="next">
+
+                                            <i class="bi bi-chevron-right"></i>
+
+                                            <span class="visually-hidden">Next</span>
+
+                                        </button>
+
+                                        <!-- Indikator Gambar & Video -->
+                                        <div class="carousel-indicators">
+
+                                            @foreach ($project['images'] as $index => $image)
+
+                                                <button
+                                                    type="button"
+                                                    data-bs-target="#projectCarousel{{ $loop->parent->iteration }}"
+                                                    data-bs-slide-to="{{ $index }}"
+                                                    class="{{ $index == 0 ? 'active' : '' }}"
+                                                    aria-label="Slide {{ $index + 1 }}"
+                                                    @if ($index == 0) aria-current="true" @endif>
+                                                </button>
+
+                                            @endforeach
+
+                                        </div>
+
+                                    @endif
+
+                                </div>
+
+                            </div>
+
+                            <span>
+                                {{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}
+                            </span>
+
+                        </div>
+
+                        <!-- Project Information -->
+                        <div class="project-content p-4">
+
+                            <div class="project-category">
+                                {{ $project['category'] }}
+                            </div>
+
+                            <h3>{{ $project['title'] }}</h3>
+
+                            <p class="section-copy">
+                                {{ $project['description'] }}
+                            </p>
+
+                            <div class="tags mb-4">
+
+                                @foreach($project['tech'] as $tech)
+                                    <span>{{ $tech }}</span>
+                                @endforeach
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            @endforeach
+
+        </div>
+
+    </div>
+</section>
+
+
+
+{{-- <section class="section section-soft">
     <div class="container">
         <div class="achievement glass-card reveal">
             <div class="achievement-icon"><i class="bi bi-trophy-fill"></i></div>
@@ -447,7 +647,7 @@
             <div class="achievement-arrow"><i class="bi bi-arrow-up-right"></i></div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <section id="contact" class="section contact-section">
     <div class="container">
@@ -455,12 +655,10 @@
             <div class="section-label">05 — Contact</div>
             <h2 class="contact-title">Let's build something<br><span class="gradient-text">meaningful.</span></h2>
             <p class="section-copy mx-auto">Terbuka untuk kesempatan kerja, kolaborasi project, dan diskusi seputar teknologi.</p>
-            <a href="mailto:emailkamu@example.com" class="btn btn-primary-custom btn-lg mt-3">Get In Touch <i class="bi bi-arrow-up-right"></i></a>
             <div class="hero-socials justify-content-center mt-4">
-                <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                <a href="mailto:emailkamu@example.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
-                <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://github.com/hariscom11" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-haris-16476b24a/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/6281358369671" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
             </div>
         </div>
     </div>
@@ -470,5 +668,110 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('js/portfolio.js') }}"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const filterButtons = document.querySelectorAll('.project-filter');
+    const projectItems = document.querySelectorAll('.project-item');
+
+    filterButtons.forEach(button => {
+
+        button.addEventListener('click', function () {
+
+            const filter = this.getAttribute('data-filter');
+
+            // Mengatur tombol aktif
+            filterButtons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            this.classList.add('active');
+
+            // Menampilkan project berdasarkan kategori
+            projectItems.forEach(item => {
+
+                const categories = item.getAttribute('data-category').split(' ');
+
+                if (filter === 'all' || categories.includes(filter)) {
+                    item.classList.remove('project-hidden');
+                } else {
+                    item.classList.add('project-hidden');
+                }
+
+            });
+
+        });
+
+    });
+
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    document.querySelectorAll('.project-carousel').forEach(function (carouselElement) {
+
+        const carousel = bootstrap.Carousel.getOrCreateInstance(carouselElement);
+
+        const videos = carouselElement.querySelectorAll('video');
+
+        function aturSlideAktif() {
+
+            const activeSlide = carouselElement.querySelector('.carousel-item.active');
+            const activeVideo = activeSlide?.querySelector('video');
+
+            if (activeVideo) {
+                carousel.pause();
+            } else {
+                carousel.cycle();
+            }
+        }
+
+        videos.forEach(function (video) {
+
+            // Ketika video diputar
+            video.addEventListener('play', function () {
+                carousel.pause();
+            });
+
+            // Ketika video dijeda
+            video.addEventListener('pause', function () {
+                carousel.pause();
+            });
+
+            // Ketika video selesai
+            video.addEventListener('ended', function () {
+                carousel.next();
+            });
+
+        });
+
+        // Sebelum berpindah slide
+        carouselElement.addEventListener('slide.bs.carousel', function () {
+
+            videos.forEach(function (video) {
+
+                if (!video.paused) {
+                    video.pause();
+                }
+
+                video.currentTime = 0;
+
+            });
+
+        });
+
+        // Setelah berpindah slide
+        carouselElement.addEventListener('slid.bs.carousel', function () {
+            aturSlideAktif();
+        });
+
+        // Periksa slide pertama
+        aturSlideAktif();
+
+    });
+
+});
+</script>
 </body>
 </html>
