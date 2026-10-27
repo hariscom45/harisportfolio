@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- HTML statis hasil konversi dari Blade. Simpan bersama folder css/, js/, images/, dan files/. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Muhammad Haris Suhud — Web Developer & Embedded Systems / IoT Developer">
     <title>Muhammad Haris Suhud | Portfolio</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
-
 <body>
 
-<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand fw-800" href="#home">
-            <img src="./images/logo.png" alt="Haris" class="navbar-logo">
+            <img src="images/logo.png"
+                alt="Haris"
+                class="navbar-logo">
         </a>
-
-        <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navMenu"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
                 <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
@@ -44,326 +39,224 @@
     </div>
 </nav>
 
-<!-- HERO -->
 <header id="home" class="hero">
     <div class="hero-grid"></div>
-
     <div class="container position-relative z-2">
         <div class="row align-items-center min-vh-100 py-5">
-
+            <!-- SISI KIRI: TEKS & TOMBOL -->
             <div class="col-lg-7 mb-5 mb-lg-0">
-                <div class="eyebrow-badge reveal delay-1 mb-3">
-                    <i class="bi bi-code-slash me-1"></i>
-                    Web Development / Embedded Developer
-                </div>
-
-                <h1 class="hero-title reveal delay-1">
-                    Hi 👋, I'm
-                    <span class="gradient-text">Muhammad Haris Suhud.</span>
-                </h1>
-
-                <h2 class="hero-subtitle reveal delay-2">
-                    Web Development | Embedded Systems | IoT
-                </h2>
-
-                <p class="hero-copy reveal delay-2">
-                    D4 Informatics Engineering graduate focused on building web applications,
-                    embedded systems, and IoT solutions.
-                </p>
-
-                <div class="d-flex flex-wrap gap-3 reveal delay-3">
-                    <a href="#contact" class="btn btn-primary-custom btn-lg">
-                        <i class="bi bi-send-fill me-2"></i> Hire Me
-                    </a>
-
-                    <a href="./files/CV-Haris-Suhud.pdf"
-                       class="btn btn-outline-custom btn-lg"
-                       download="CV-Muhammad-Haris-Suhud.pdf">
-                        <i class="bi bi-download me-2"></i> Download CV
-                    </a>
-                </div>
-
-                <div class="hero-socials reveal delay-3 mt-4">
-                    <a href="https://github.com/hariscom11"
-                       aria-label="GitHub"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <i class="bi bi-github"></i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/muhammad-haris-16476b24a/"
-                       aria-label="LinkedIn"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-
-                    <a href="https://wa.me/6281358369671"
-                       aria-label="WhatsApp"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <i class="bi bi-whatsapp"></i>
-                    </a>
-                </div>
+            <!-- Eyebrow Badge -->
+            <div class="eyebrow-badge reveal delay-1 mb-3">
+                <i class="bi bi-code-slash me-1"></i> Web Development / Embedded Developer
             </div>
 
+            <!-- Title -->
+            <h1 class="hero-title reveal delay-1">
+                Hi 👋, I'm <span class="gradient-text">Muhammad Haris Suhud.</span>
+            </h1>
+
+            <!-- Subtitle & Copy -->
+            <h2 class="hero-subtitle reveal delay-2">Web Development | Embedded Systems | IoT</h2>
+            <p class="hero-copy reveal delay-2">
+                D4 Informatics Engineering graduate focused on building web applications, embedded systems, and IoT solutions.
+            </p>
+
+            <!-- STATISTIK BADGE (Dengan Efek Timbul) -->
+
+
+            <!-- TOMBOL CTA -->
+            <div class="d-flex flex-wrap gap-3 reveal delay-3">
+                <a href="#contact" class="btn btn-primary-custom btn-lg">
+                    <i class="bi bi-send-fill me-2"></i> Hire Me
+                </a>
+                <a href="files/CV-Haris-Suhud.pdf"
+                    class="btn btn-outline-custom btn-lg"
+                    download="CV-Muhammad-Haris-Suhud.pdf">
+                    <i class="bi bi-download me-2"></i> Download CV
+                </a>
+            </div>
+
+            <!-- SOSIAL MEDIA -->
+            <div class="hero-socials reveal delay-3 mt-4">
+                <a href="https://github.com/hariscom11" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-haris-16476b24a/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/6281358369671" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+
+            <!-- SISI KANAN: CARD PROFIL BERGERAK & GELOMBANG -->
             <div class="col-lg-5 d-flex justify-content-center">
                 <div class="profile-card float-animation">
                     <div class="profile-avatar-wrapper">
+                        <!-- Elemen Gelombang/Pulse -->
                         <div class="wave wave-1"></div>
                         <div class="wave wave-2"></div>
                         <div class="wave wave-3"></div>
 
-                        <img src="./images/foto-saya.png"
-                             alt="Muhammad Haris Suhud"
-                             class="profile-avatar">
+                        <!-- Foto Profil -->
+                        <img src="images/foto-saya.png" alt="Muhammad Haris Suhud" class="profile-avatar">
                     </div>
 
                     <div class="profile-info text-center mt-3">
                         <h4 class="profile-name">Muhammad Haris Suhud</h4>
                         <p class="profile-handle">@_harissuhud03</p>
-
-                        <p class="profile-location">
-                            <i class="bi bi-geo-alt-fill text-emerald me-1"></i>
-                            Pasuruan, Indonesia
-                        </p>
-
-                        <span class="profile-role">
-                            Web Development &amp; Embedded Systems
-                        </span>
+                        <p class="profile-location"><i class="bi bi-geo-alt-fill text-emerald me-1"></i> Pasuruan, Indonesia</p>
+                        <span class="profile-role">Web Development & Embedded Systems</span>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
-    <a class="scroll-hint" href="#about">
-        <span></span> Scroll to explore
-    </a>
+    <a class="scroll-hint" href="#about"><span></span> Scroll to explore</a>
 </header>
 
-<!-- ABOUT -->
 <section id="about" class="section section-soft min-vh-100 d-flex align-items-center py-5">
     <div class="container my-auto">
-
+        <!-- Title Center -->
         <div class="text-center mb-5 reveal">
-            <div class="section-label d-inline-flex align-items-center gap-2 mb-2"></div>
+            <div class="section-label d-inline-flex align-items-center gap-2 mb-2">
+            </div>
             <h2 class="section-title text-white">About Me</h2>
         </div>
 
         <div class="row g-4 align-items-stretch justify-content-center">
-
+            <!-- Kolom Kiri: Foto / Gambar Anime -->
             <div class="col-lg-5">
                 <div class="glass-card h-100 p-4 text-center d-flex flex-column justify-content-center align-items-center reveal">
                     <div class="profile-img-wrapper overflow-hidden rounded-4 w-100 h-100">
-                        <img src="./images/foto.jpg"
-                             alt="Profile Image"
-                             class="img-fluid w-100 h-100 object-fit-cover rounded-4">
+                        <!-- Ganti src dengan path foto anime Anda -->
+                       <img src="images/foto.jpg" alt="Profile Image" class="img-fluid w-100 h-100 object-fit-cover rounded-4">
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <!-- Kolom Kanan: Deskripsi + Expertise + Stats -->
+           <div class="col-lg-6">
                 <div class="glass-card p-4 p-lg-5 h-100 d-flex flex-column justify-content-between reveal">
-
                     <div class="flex-grow-1">
                         <h3 class="about-headline mb-3 text-emerald">
-                            <i class="bi bi-code-slash me-2"></i>
-                            Building useful things with code &amp; technology.
+                            <i class="bi bi-code-slash me-2"></i>Building useful things with code & technology.
                         </h3>
-
-                        <p class="section-copy text-white mb-3"
-                           style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
-                            I am a Web Developer and Embedded Systems &amp; IoT Developer
-                            with an educational background in Informatics Engineering.
-                            I have experience developing web applications, programming
-                            microcontrollers, and integrating sensors and devices into IoT projects.
+                        <p class="section-copy text-white mb-3" style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
+                            I am a Web Developer and Embedded Systems & IoT Developer with an educational background in Informatics Engineering. I have experience developing web applications, programming microcontrollers, and integrating sensors and devices into IoT projects.
                         </p>
-
-                        <p class="section-copy text-white mb-3"
-                           style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
-                            I enjoy building practical digital solutions that combine software
-                            and hardware. With experience in Laravel, CodeIgniter, PHP,
-                            JavaScript, MySQL, ESP8266, ESP32, LattePandaV2 and embedded systems,
-                            I am always enthusiastic about learning new technologies and
-                            transforming ideas into functional, reliable solutions.
+                        <p class="section-copy text-white mb-3" style="text-align: justify; -webkit-hyphens: auto; hyphens: auto;">
+                            I enjoy building practical digital solutions that combine software and hardware. With experience in Laravel, CodeIgniter, PHP, JavaScript, MySQL, ESP8266, ESP32, LattePandaV2 and embedded systems, I am always enthusiastic about learning new technologies and transforming ideas into functional, reliable solutions.
                         </p>
                     </div>
 
+                    <!-- Kartu/Pembungkus Core Expertise -->
                     <div class="mt-4 p-3 rounded-3 border border-secondary border-opacity-25 bg-dark bg-opacity-50">
                         <h5 class="text-emerald fs-6 mb-3">
                             <i class="bi bi-gear-fill me-2"></i>Core Expertise
                         </h5>
 
                         <div class="row g-3 text-start fs-7">
-                            <div class="col-6 text-light">
-                                <i class="bi bi-check2-circle text-emerald me-2"></i>
-                                Full Stack Development
-                            </div>
-
-                            <div class="col-6 text-light">
-                                <i class="bi bi-check2-circle text-emerald me-2"></i>
-                                Front End Development
-                            </div>
-
-                            <div class="col-6 text-light">
-                                <i class="bi bi-check2-circle text-emerald me-2"></i>
-                                Back End Development
-                            </div>
-
-                            <div class="col-6 text-light">
-                                <i class="bi bi-check2-circle text-emerald me-2"></i>
-                                Embedded Systems
-                            </div>
-
-                            <div class="col-6 text-light">
-                                <i class="bi bi-check2-circle text-emerald me-2"></i>
-                                IoT Integration
-                            </div>
-
-                            <div class="col-6 text-light">
-                                <i class="bi bi-check2-circle text-emerald me-2"></i>
-                                Project Management
-                            </div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Full Stack Development</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Front End Development</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Back End Development</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Embedded Systems</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>IoT Integration</div>
+                            <div class="col-6 text-light"><i class="bi bi-check2-circle text-emerald me-2"></i>Project Management</div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 </section>
 
-<!-- SKILLS -->
 <section id="skills" class="section skills-section">
     <div class="container">
-
         <div class="skills-heading reveal">
-            <div class="skills-main-title">
-                <i class="bi bi-tools"></i>
-                <h2>Technical Skills &amp; Technologies</h2>
-            </div>
+            <div class="skills-main-title"><i class="bi bi-tools"></i><h2>Technical Skills & Technologies</h2></div>
             <div class="skills-title-line"></div>
         </div>
-
         <div class="skill-category reveal">
-            <div class="skill-category-title">
-                <i class="bi bi-palette-fill"></i>
-                <span>Front End Development</span>
-            </div>
-
+            <div class="skill-category-title"><i class="bi bi-code-slash"></i><span>Web Development</span></div>
             <div class="tech-grid-new">
+                <div class="tech-card"><i class="devicon-laravel-original colored"></i><span>Laravel</span></div>
+                <div class="tech-card"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
+                <div class="tech-card"><i class="devicon-codeigniter-plain colored"></i><span>CodeIgniter 4</span></div>
+                <div class="tech-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
                 <div class="tech-card"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
                 <div class="tech-card"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
-                <div class="tech-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
                 <div class="tech-card"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div>
-                <div class="tech-card"><i class="devicon-tailwindcss-original colored"></i><span>Tailwind</span></div>
-                <div class="tech-card"><i class="devicon-vuejs-plain colored"></i><span>Vue.js</span></div>
-                <div class="tech-card"><i class="devicon-react-original colored"></i><span>React</span></div>
-                <div class="tech-card"><i class="devicon-nuxtjs-plain colored"></i><span>Nuxt.js</span></div>
             </div>
         </div>
-
         <div class="skill-category reveal">
-            <div class="skill-category-title">
-                <i class="bi bi-server"></i>
-                <span>Back End Development</span>
-            </div>
-
+            <div class="skill-category-title"><i class="bi bi-cpu"></i><span>IoT &amp; Embedded Systems</span></div>
             <div class="tech-grid-new">
-                <div class="tech-card"><i class="devicon-php-plain colored"></i><span>PHP</span></div>
-                <div class="tech-card"><i class="devicon-laravel-original colored"></i><span>Laravel</span></div>
-                <div class="tech-card"><i class="devicon-codeigniter-plain colored"></i><span>CodeIgniter</span></div>
-                <div class="tech-card"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
-                <div class="tech-card"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
-                <div class="tech-card"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
-                <div class="tech-card"><i class="devicon-firebase-plain colored"></i><span>Firebase</span></div>
-                <div class="tech-card"><i class="devicon-supabase-plain colored"></i><span>Supabase</span></div>
-            </div>
-        </div>
-
-        <div class="skill-category reveal">
-            <div class="skill-category-title">
-                <i class="bi bi-wrench-adjustable"></i>
-                <span>DevOps &amp; Tools</span>
-            </div>
-
-            <div class="tech-grid-new">
-                <div class="tech-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
-                <div class="tech-card"><i class="devicon-github-original"></i><span>GitHub</span></div>
-                <div class="tech-card"><i class="devicon-gitlab-plain colored"></i><span>GitLab</span></div>
-                <div class="tech-card"><i class="devicon-postman-plain colored"></i><span>Postman</span></div>
-                <div class="tech-card"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
-                <div class="tech-card"><i class="bi bi-microsoft"></i><span>Microsoft Office</span></div>
-            </div>
-        </div>
-
-        <div class="skill-category reveal">
-            <div class="skill-category-title">
-                <i class="bi bi-cpu-fill"></i>
-                <span>Embedded</span>
-            </div>
-
-            <div class="tech-grid-new">
+                <div class="tech-card"><i class="devicon-esp32-plain colored"></i><span>ESP32</span></div>
+                <div class="tech-card"><i class="bi-wifi embedded-icon"></i><span>ESP8266</span></div>
                 <div class="tech-card"><i class="devicon-arduino-plain colored"></i><span>Arduino</span></div>
-                <div class="tech-card"><i class="bi bi-cpu-fill embedded-icon"></i><span>Microcontroller</span></div>
-                <div class="tech-card"><i class="bi bi-cpu-fill embedded-icon"></i><span>LattePanda V2</span></div>
-                <div class="tech-card"><i class="devicon-cplusplus-plain colored"></i><span>C/C++</span></div>
-                <div class="tech-card"><i class="bi bi-broadcast-pin embedded-icon"></i><span>MQTT</span></div>
-                <div class="tech-card"><i class="bi bi-code-square embedded-icon"></i><span>Arduino IDE</span></div>
-                <div class="tech-card"><i class="bi bi-diagram-3-fill embedded-icon"></i><span>GPIO &amp; Sensors</span></div>
-                <div class="tech-card"><i class="bi bi-wifi embedded-icon"></i><span>IoT</span></div>
+                <div class="tech-card"><i class="devicon-c-plain colored"></i><span>C</span></div>
+                <div class="tech-card"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+                <div class="tech-card"><i class="devicon-arduino-plain colored"></i><span>Arduino IDE</span></div>
+                <div class="tech-card"><i class="bi-cpu embedded-icon"></i><span>Sensors &amp; Actuators</span></div>
             </div>
         </div>
-
+        <div class="skill-category reveal">
+            <div class="skill-category-title"><i class="bi bi-grid-1x2"></i><span>Database, Tools &amp; Productivity</span></div>
+            <div class="tech-grid-new">
+                <div class="tech-card"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+                <div class="tech-card"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+                <div class="tech-card"><i class="devicon-github-original colored"></i><span>GitHub</span></div>
+                <div class="tech-card"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+                <div class="tech-card"><i class="devicon-vitejs-plain colored"></i><span>Vite</span></div>
+                <div class="tech-card"><i class="devicon-microsoftoffice-plain colored"></i><span>Microsoft Office</span></div>
+                <div class="tech-card"><i class="devicon-canva-original colored"></i><span>Canva</span></div>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- EXPERIENCE -->
+
 <section id="experience" class="section">
     <div class="container">
-
         <div class="section-heading reveal">
             <div class="section-label">03 — Experience</div>
-            <h2 class="section-title">Where I've learned &amp; worked.</h2>
+            <h2 class="section-title">Where I've learned & worked.</h2>
         </div>
-
         <div class="timeline">
-
             <div class="timeline-item reveal">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <span class="timeline-period">5 months</span>
-                    <h3>MIS Intern</h3>
+                    <span class="timeline-period">Aug 2025 - Dec 2025</span>
+                    <h3>Software Development Intern</h3>
                     <p>PT Yamaha Electronics Manufacturing Indonesia</p>
                 </div>
             </div>
-
             <div class="timeline-item reveal">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <span class="timeline-period">Internship</span>
-                    <h3>Frontend Developer</h3>
-                    <p>PT Winnicode Garuda Teknologi</p>
+                    <span class="timeline-period">Feb 2025 - Jul 2025</span>
+                    <h3>Laravel Development Intern</h3>
+                    <p>PT WinnieCode Garuda Teknologi</p>
                 </div>
             </div>
-
             <div class="timeline-item reveal">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <span class="timeline-period">Training</span>
-                    <h3>Project Manager — IoT</h3>
+                    <span class="timeline-period">Sep 2024 - Dec 2024</span>
+                    <h3>Firmware Engineer &amp; Project Manager</h3>
                     <p>Indobot Academy</p>
                 </div>
             </div>
-
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-period">Jan 2024 - Jul 2024</span>
+                    <h3>Front End Development Intern</h3>
+                    <p>PT Masrur and Son</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- PROJECTS -->
+
 <section id="projects" class="section section-soft">
     <div class="container">
 
@@ -377,499 +270,275 @@
             </p>
         </div>
 
-        <!-- Project Filters -->
+        <!-- Project Category Filter -->
         <div class="project-filter-wrapper reveal">
             <div class="project-filter-scroll">
-                <button class="project-filter active" data-filter="all">All Projects</button>
-                <button class="project-filter" data-filter="web">Web Development</button>
-                <button class="project-filter" data-filter="iot">Internet of Things</button>
-                <button class="project-filter" data-filter="robotics">Robotics</button>
-                <button class="project-filter" data-filter="embedded">Embedded Systems</button>
-                <button class="project-filter" data-filter="machine">Machine Learning</button>
+                <button class="project-filter active" data-filter="all">
+                    All Projects
+                </button>
+
+                <button class="project-filter" data-filter="web">
+                    Web Development
+                </button>
+
+                <button class="project-filter" data-filter="iot">
+                    Internet of Things
+                </button>
+
+                <button class="project-filter" data-filter="robotics">
+                    Robotics
+                </button>
+
+                <button class="project-filter" data-filter="embedded">
+                    Embedded Systems
+                </button>
+
+                <button class="project-filter" data-filter="machine">
+                    Machine Learning
+                </button>
             </div>
         </div>
 
+        <!-- Project Cards -->
         <div class="row g-4" id="projectContainer">
-
-            <!-- PROJECT 1 -->
-            <div class="col-md-6 project-item" data-category="iot web embedded machine">
-                <article class="project-card glass-card reveal delay-0">
-
+            <div class="col-md-6 project-item" data-category="iot">
+                <article class="project-card glass-card reveal">
                     <div class="project-visual">
                         <div class="project-image-wrapper">
-                            <div id="projectCarousel1"
-                                 class="carousel slide project-carousel"
-                                 data-bs-ride="carousel"
-                                 data-bs-interval="3500">
-
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="./images/projects/hydrosmart-1.jpg"
-                                             alt="HydroSmart - Image 1"
-                                             class="project-image"
-                                             loading="lazy">
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="./images/projects/hydrosmart-2.jpg"
-                                             alt="HydroSmart - Image 2"
-                                             class="project-image"
-                                             loading="lazy">
-                                    </div>
-                                </div>
-
-                                <button class="carousel-control-prev"
-                                        type="button"
-                                        data-bs-target="#projectCarousel1"
-                                        data-bs-slide="prev">
-                                    <i class="bi bi-chevron-left"></i>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next"
-                                        type="button"
-                                        data-bs-target="#projectCarousel1"
-                                        data-bs-slide="next">
-                                    <i class="bi bi-chevron-right"></i>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
-                                <div class="carousel-indicators">
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel1"
-                                            data-bs-slide-to="0"
-                                            class="active"
-                                            aria-label="Slide 1"
-                                            aria-current="true"></button>
-
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel1"
-                                            data-bs-slide-to="1"
-                                            aria-label="Slide 2"></button>
-                                </div>
-
+                            <div id="projectCarousel1" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/EdgeBeat1.png" alt="IoT-Based EdgeBeat Monitoring System - Image 1" class="project-image" loading="lazy"></div><div class="carousel-item"><img src="images/project/EdgeBeat2.png" alt="IoT-Based EdgeBeat Monitoring System - Image 2" class="project-image" loading="lazy"></div></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel1" data-bs-slide="prev"><i class="bi bi-chevron-left"></i><span class="visually-hidden">Previous</span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#projectCarousel1" data-bs-slide="next"><i class="bi bi-chevron-right"></i><span class="visually-hidden">Next</span></button><div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button><button type="button" data-bs-target="#projectCarousel1" data-bs-slide-to="1" class="" aria-label="Slide 2" ></button></div>
                             </div>
                         </div>
                         <span>01</span>
                     </div>
-
                     <div class="project-content p-4">
-                        <div class="project-category">IoT, Web &amp; Machine Learning</div>
-                        <h3>HydroSmart — Aquaponic Monitoring</h3>
-
-                        <p class="section-copy">
-                            Sistem monitoring suhu air, suhu udara, dan kelembapan
-                            pada aquaponik berbasis IoT dengan prediksi kondisi
-                            tanaman menggunakan metode K-Nearest Neighbors (KNN).
-                        </p>
-
-                        <div class="tags mb-4">
-                            <span>Laravel</span>
-                            <span>ESP8266</span>
-                            <span>Firebase</span>
-                            <span>KNN</span>
-                            <span>DS18B20</span>
-                            <span>DHT22</span>
-                        </div>
+                        <div class="project-category">Internet of Things</div>
+                        <h3>IoT-Based EdgeBeat Monitoring System</h3>
+                        <p class="section-copy">Sistem monitoring kesehatan lansia berbasis Internet of Things (IoT) yang dirancang untuk mengukur dan menampilkan suhu tubuh, detak jantung, serta kadar oksigen dalam darah (SpO₂) menggunakan sensor yang terintegrasi dengan mikrokontroler.</p>
+                        <div class="tags mb-4"><span>IoT</span><span>ESP32</span><span>Arduino IDE</span></div>
                     </div>
-
                 </article>
             </div>
-
-            <!-- PROJECT 2 -->
-            <div class="col-md-6 project-item" data-category="robotics embedded iot">
-                <article class="project-card glass-card reveal delay-1">
-
+            <div class="col-md-6 project-item" data-category="web">
+                <article class="project-card glass-card reveal">
                     <div class="project-visual">
                         <div class="project-image-wrapper">
-                            <div id="projectCarousel2"
-                                 class="carousel slide project-carousel"
-                                 data-bs-ride="carousel"
-                                 data-bs-interval="3500">
-
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="./images/projects/robot-arm-1.jpg"
-                                             alt="Robot Arm Sorter - Image 1"
-                                             class="project-image"
-                                             loading="lazy">
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <video class="project-image project-video"
-                                               controls
-                                               playsinline
-                                               preload="metadata">
-                                            <source src="./images/projects/robot-arm-demo.mp4"
-                                                    type="video/mp4">
-                                            Browser tidak mendukung video.
-                                        </video>
-                                    </div>
-                                </div>
-
-                                <button class="carousel-control-prev"
-                                        type="button"
-                                        data-bs-target="#projectCarousel2"
-                                        data-bs-slide="prev">
-                                    <i class="bi bi-chevron-left"></i>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next"
-                                        type="button"
-                                        data-bs-target="#projectCarousel2"
-                                        data-bs-slide="next">
-                                    <i class="bi bi-chevron-right"></i>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
-                                <div class="carousel-indicators">
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel2"
-                                            data-bs-slide-to="0"
-                                            class="active"
-                                            aria-label="Slide 1"
-                                            aria-current="true"></button>
-
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel2"
-                                            data-bs-slide-to="1"
-                                            aria-label="Slide 2"></button>
-                                </div>
-
+                            <div id="projectCarousel2" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/Company1.png" alt="Company Profile Website - Image 1" class="project-image" loading="lazy"></div><div class="carousel-item"><img src="images/project/Company2.png" alt="Company Profile Website - Image 2" class="project-image" loading="lazy"></div></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel2" data-bs-slide="prev"><i class="bi bi-chevron-left"></i><span class="visually-hidden">Previous</span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#projectCarousel2" data-bs-slide="next"><i class="bi bi-chevron-right"></i><span class="visually-hidden">Next</span></button><div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel2" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button><button type="button" data-bs-target="#projectCarousel2" data-bs-slide-to="1" class="" aria-label="Slide 2" ></button></div>
                             </div>
                         </div>
                         <span>02</span>
                     </div>
-
                     <div class="project-content p-4">
-                        <div class="project-category">Robotics &amp; Embedded Systems</div>
-                        <h3>Robot Arm Pemilah Kardus</h3>
-
-                        <p class="section-copy">
-                            Sistem conveyor dan robot arm berbasis ESP32 untuk
-                            memilah kardus berdasarkan ukuran menggunakan sensor
-                            ultrasonik, servo, OLED, dan pencatatan data Firebase.
-                        </p>
-
-                        <div class="tags mb-4">
-                            <span>ESP32</span>
-                            <span>C++</span>
-                            <span>Servo</span>
-                            <span>Ultrasonic</span>
-                            <span>Firebase</span>
-                        </div>
+                        <div class="project-category">Web Development</div>
+                        <h3>Company Profile Website</h3>
+                        <p class="section-copy">Website company profile yang dirancang untuk menyajikan informasi perusahaan secara digital, meliputi profil perusahaan, layanan, dan informasi lainnya. Website dilengkapi antarmuka responsif untuk memberikan pengalaman pengguna yang optimal pada berbagai perangkat.</p>
+                        <div class="tags mb-4"><span>Laravel</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span></div>
                     </div>
-
                 </article>
             </div>
-
-            <!-- PROJECT 3 -->
-            <div class="col-md-6 project-item" data-category="web">
-                <article class="project-card glass-card reveal delay-2">
-
+            <div class="col-md-6 project-item" data-category="iot robotics">
+                <article class="project-card glass-card reveal">
                     <div class="project-visual">
                         <div class="project-image-wrapper">
-                            <div id="projectCarousel3"
-                                 class="carousel slide project-carousel"
-                                 data-bs-ride="carousel"
-                                 data-bs-interval="3500">
-
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="./images/projects/authlap-1.jpg"
-                                             alt="AuthLap - Image 1"
-                                             class="project-image"
-                                             loading="lazy">
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="./images/projects/authlap-2.jpg"
-                                             alt="AuthLap - Image 2"
-                                             class="project-image"
-                                             loading="lazy">
-                                    </div>
-                                </div>
-
-                                <button class="carousel-control-prev"
-                                        type="button"
-                                        data-bs-target="#projectCarousel3"
-                                        data-bs-slide="prev">
-                                    <i class="bi bi-chevron-left"></i>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next"
-                                        type="button"
-                                        data-bs-target="#projectCarousel3"
-                                        data-bs-slide="next">
-                                    <i class="bi bi-chevron-right"></i>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
-                                <div class="carousel-indicators">
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel3"
-                                            data-bs-slide-to="0"
-                                            class="active"
-                                            aria-label="Slide 1"
-                                            aria-current="true"></button>
-
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel3"
-                                            data-bs-slide-to="1"
-                                            aria-label="Slide 2"></button>
-                                </div>
-
+                            <div id="projectCarousel3" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/robot1.png" alt="UWB-Based Robot Follower - Image 1" class="project-image" loading="lazy"></div><div class="carousel-item"><img src="images/project/robot2.png" alt="UWB-Based Robot Follower - Image 2" class="project-image" loading="lazy"></div></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel3" data-bs-slide="prev"><i class="bi bi-chevron-left"></i><span class="visually-hidden">Previous</span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#projectCarousel3" data-bs-slide="next"><i class="bi bi-chevron-right"></i><span class="visually-hidden">Next</span></button><div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button><button type="button" data-bs-target="#projectCarousel3" data-bs-slide-to="1" class="" aria-label="Slide 2" ></button></div>
                             </div>
                         </div>
                         <span>03</span>
                     </div>
-
                     <div class="project-content p-4">
-                        <div class="project-category">Web Development</div>
-                        <h3>AuthLap — Laptop Borrowing System</h3>
-
-                        <p class="section-copy">
-                            Aplikasi internal untuk pengajuan peminjaman laptop
-                            dengan alur persetujuan bertingkat, pengelolaan status,
-                            serta notifikasi email.
-                        </p>
-
-                        <div class="tags mb-4">
-                            <span>CodeIgniter</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>Bootstrap</span>
-                        </div>
+                        <div class="project-category">Robotics &amp; IoT</div>
+                        <h3>UWB-Based Robot Follower</h3>
+                        <p class="section-copy">Robot pengantar barang otomatis yang mampu mengikuti pergerakan pengguna menggunakan teknologi Ultra-Wideband (UWB) untuk mendeteksi posisi dan jarak. Sistem memanfaatkan ESP32 sebagai perangkat komunikasi UWB dan LattePanda untuk memproses data navigasi serta mengendalikan pergerakan robot.</p>
+                        <div class="tags mb-4"><span>ESP32</span><span>UWB</span><span>LattePanda</span><span>Arduino IDE</span></div>
                     </div>
-
                 </article>
             </div>
-
-            <!-- PROJECT 4 -->
-            <div class="col-md-6 project-item" data-category="robotics embedded iot">
-                <article class="project-card glass-card reveal delay-3">
-
+            <div class="col-md-6 project-item" data-category="web">
+                <article class="project-card glass-card reveal">
                     <div class="project-visual">
                         <div class="project-image-wrapper">
-                            <div id="projectCarousel4"
-                                 class="carousel slide project-carousel"
-                                 data-bs-ride="carousel"
-                                 data-bs-interval="3500">
-
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="./images/projects/uwb-robot-1.jpg"
-                                             alt="UWB Robot Follower - Image 1"
-                                             class="project-image"
-                                             loading="lazy">
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <video class="project-image project-video"
-                                               controls
-                                               playsinline
-                                               preload="metadata">
-                                            <source src="./images/projects/uwb-robot-demo.mp4"
-                                                    type="video/mp4">
-                                            Browser tidak mendukung video.
-                                        </video>
-                                    </div>
-                                </div>
-
-                                <button class="carousel-control-prev"
-                                        type="button"
-                                        data-bs-target="#projectCarousel4"
-                                        data-bs-slide="prev">
-                                    <i class="bi bi-chevron-left"></i>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next"
-                                        type="button"
-                                        data-bs-target="#projectCarousel4"
-                                        data-bs-slide="next">
-                                    <i class="bi bi-chevron-right"></i>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
-                                <div class="carousel-indicators">
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel4"
-                                            data-bs-slide-to="0"
-                                            class="active"
-                                            aria-label="Slide 1"
-                                            aria-current="true"></button>
-
-                                    <button type="button"
-                                            data-bs-target="#projectCarousel4"
-                                            data-bs-slide-to="1"
-                                            aria-label="Slide 2"></button>
-                                </div>
-
+                            <div id="projectCarousel4" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/learning1.png" alt="Learning Center Management System - Image 1" class="project-image" loading="lazy"></div><div class="carousel-item"><img src="images/project/learning2.png" alt="Learning Center Management System - Image 2" class="project-image" loading="lazy"></div></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel4" data-bs-slide="prev"><i class="bi bi-chevron-left"></i><span class="visually-hidden">Previous</span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#projectCarousel4" data-bs-slide="next"><i class="bi bi-chevron-right"></i><span class="visually-hidden">Next</span></button><div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button><button type="button" data-bs-target="#projectCarousel4" data-bs-slide-to="1" class="" aria-label="Slide 2" ></button></div>
                             </div>
                         </div>
                         <span>04</span>
                     </div>
-
                     <div class="project-content p-4">
-                        <div class="project-category">Robotics &amp; Embedded Systems</div>
-                        <h3>UWB Robot Follower</h3>
-
-                        <p class="section-copy">
-                            Pengembangan robot pengikut untuk navigasi indoor
-                            menggunakan LattePanda, ESP32, dan UWB untuk mendukung
-                            konsep robot pengantar barang.
-                        </p>
-
-                        <div class="tags mb-4">
-                            <span>LattePanda</span>
-                            <span>ESP32</span>
-                            <span>UWB</span>
-                            <span>Arduino</span>
-                            <span>Robotics</span>
-                        </div>
+                        <div class="project-category">Web Development</div>
+                        <h3>Learning Center Management System</h3>
+                        <p class="section-copy">Aplikasi berbasis web untuk mengelola kegiatan pelatihan dan pembelajaran karyawan secara digital. Sistem menyediakan fitur pengelolaan materi pelatihan, instruktur, peserta, sesi pembelajaran, serta evaluasi melalui pre-test dan post-test.</p>
+                        <div class="tags mb-4"><span>CodeIgniter 3</span><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
                     </div>
-
                 </article>
             </div>
+            <div class="col-md-6 project-item" data-category="web">
+                <article class="project-card glass-card reveal">
+                    <div class="project-visual">
+                        <div class="project-image-wrapper">
+                            <div id="projectCarousel5" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/authlap1.png" alt="AuthLap - Laptop Borrowing Management System - Image 1" class="project-image" loading="lazy"></div><div class="carousel-item"><img src="images/project/authlap2.png" alt="AuthLap - Laptop Borrowing Management System - Image 2" class="project-image" loading="lazy"></div></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel5" data-bs-slide="prev"><i class="bi bi-chevron-left"></i><span class="visually-hidden">Previous</span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#projectCarousel5" data-bs-slide="next"><i class="bi bi-chevron-right"></i><span class="visually-hidden">Next</span></button><div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel5" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button><button type="button" data-bs-target="#projectCarousel5" data-bs-slide-to="1" class="" aria-label="Slide 2" ></button></div>
+                            </div>
+                        </div>
+                        <span>05</span>
+                    </div>
+                    <div class="project-content p-4">
+                        <div class="project-category">Web Development</div>
+                        <h3>AuthLap - Laptop Borrowing Management System</h3>
+                        <p class="section-copy">Aplikasi berbasis web untuk mengelola proses peminjaman dan penggunaan laptop oleh karyawan perusahaan. Sistem menyediakan fitur pengajuan peminjaman, persetujuan berjenjang oleh pihak terkait, pengelolaan data laptop, serta monitoring status pengajuan dan peminjaman.</p>
+                        <div class="tags mb-4"><span>CodeIgniter 3</span><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 project-item" data-category="iot machine">
+                <article class="project-card glass-card reveal">
+                    <div class="project-visual">
+                        <div class="project-image-wrapper">
+                            <div id="projectCarousel6" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/HydroSmart1.png" alt="IoT-Based Aquaponic HydroSmart Monitoring System with KNN - Image 1" class="project-image" loading="lazy"></div><div class="carousel-item"><img src="images/project/HydroSmart2.png" alt="IoT-Based Aquaponic HydroSmart Monitoring System with KNN - Image 2" class="project-image" loading="lazy"></div><div class="carousel-item"><img src="images/project/HydroSmart3.png" alt="IoT-Based Aquaponic HydroSmart Monitoring System with KNN - Image 3" class="project-image" loading="lazy"></div></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel6" data-bs-slide="prev"><i class="bi bi-chevron-left"></i><span class="visually-hidden">Previous</span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#projectCarousel6" data-bs-slide="next"><i class="bi bi-chevron-right"></i><span class="visually-hidden">Next</span></button><div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel6" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button><button type="button" data-bs-target="#projectCarousel6" data-bs-slide-to="1" class="" aria-label="Slide 2" ></button><button type="button" data-bs-target="#projectCarousel6" data-bs-slide-to="2" class="" aria-label="Slide 3" ></button></div>
+                            </div>
+                        </div>
+                        <span>06</span>
+                    </div>
+                    <div class="project-content p-4">
+                        <div class="project-category">IoT &amp; Machine Learning</div>
+                        <h3>IoT-Based Aquaponic HydroSmart Monitoring System with KNN</h3>
+                        <p class="section-copy">Sistem monitoring aquaponik berbasis Internet of Things (IoT) untuk memantau suhu air, suhu udara, dan kelembapan secara berkala. Data sensor diintegrasikan dengan aplikasi web dan algoritma K-Nearest Neighbors (KNN) untuk memprediksi tingkat optimalitas kondisi lingkungan bagi pertumbuhan tanaman.</p>
+                        <div class="tags mb-4"><span>ESP8266</span><span>Laravel</span><span>Firebase</span><span>KNN</span><span>IoT</span></div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 project-item" data-category="iot">
+                <article class="project-card glass-card reveal">
+                    <div class="project-visual">
+                        <div class="project-image-wrapper">
+                            <div id="projectCarousel7" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/seagrow.png" alt="SeaGrow - Smart IoT Monitoring &amp; Automation - Image 1" class="project-image" loading="lazy"></div></div>
 
+                            </div>
+                        </div>
+                        <span>07</span>
+                    </div>
+                    <div class="project-content p-4">
+                        <div class="project-category">Internet of Things &amp; Automation</div>
+                        <h3>SeaGrow - Smart IoT Monitoring &amp; Automation</h3>
+                        <p class="section-copy">Sistem monitoring dan pengendalian lingkungan berbasis Internet of Things (IoT) yang mampu memantau suhu udara, kelembapan, dan kadar pH. Sistem dilengkapi mekanisme otomatisasi pompa untuk membantu menstabilkan kadar pH dan menjaga kondisi lingkungan sesuai parameter yang ditentukan.</p>
+                        <div class="tags mb-4"><span>IoT</span><span>Microcontroller</span><span>Sensors</span><span>Automation</span></div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 project-item" data-category="robotics embedded">
+                <article class="project-card glass-card reveal">
+                    <div class="project-visual">
+                        <div class="project-image-wrapper">
+                            <div id="projectCarousel8" class="carousel slide project-carousel" data-bs-ride="carousel" data-bs-interval="3500">
+                                <div class="carousel-inner"><div class="carousel-item active"><img src="images/project/robot.png" alt="Automatic Cardboard Sorting Robot Arm - Image 1" class="project-image" loading="lazy"></div><div class="carousel-item"><video class="project-image project-video" controls playsinline preload="metadata"><source src="images/project/robot.mp4">Browser tidak mendukung video.</video></div></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel8" data-bs-slide="prev"><i class="bi bi-chevron-left"></i><span class="visually-hidden">Previous</span></button>
+<button class="carousel-control-next" type="button" data-bs-target="#projectCarousel8" data-bs-slide="next"><i class="bi bi-chevron-right"></i><span class="visually-hidden">Next</span></button><div class="carousel-indicators"><button type="button" data-bs-target="#projectCarousel8" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button><button type="button" data-bs-target="#projectCarousel8" data-bs-slide-to="1" class="" aria-label="Slide 2" ></button></div>
+                            </div>
+                        </div>
+                        <span>08</span>
+                    </div>
+                    <div class="project-content p-4">
+                        <div class="project-category">Robotics &amp; Embedded Systems</div>
+                        <h3>Automatic Cardboard Sorting Robot Arm</h3>
+                        <p class="section-copy">Sistem pemilahan kardus otomatis berdasarkan ukuran menggunakan robot lengan dan conveyor yang dikendalikan oleh ESP32. Sensor ultrasonik digunakan untuk mendeteksi ukuran kardus, kemudian robot lengan memindahkan kardus sesuai kategorinya. Hasil pemilahan ditampilkan melalui OLED dan dikirim ke Firebase untuk monitoring secara real-time.</p>
+                        <div class="tags mb-4"><span>ESP32</span><span>Robot Arm</span><span>Firebase</span><span>Ultrasonic Sensor</span><span>Arduino IDE</span></div>
+                    </div>
+                </article>
+            </div>
         </div>
+
     </div>
 </section>
 
-<!-- ACHIEVEMENT -->
-<section class="section section-soft">
-    <div class="container">
-        <div class="achievement glass-card reveal">
-            <div class="achievement-icon">
-                <i class="bi bi-trophy-fill"></i>
-            </div>
 
-            <div>
-                <div class="section-label">Achievement</div>
-                <h2>1st Place — KMIPN VI</h2>
-                <p>Juara 1 kategori Perancangan Bisnis TIK.</p>
-            </div>
 
-            <div class="achievement-arrow">
-                <i class="bi bi-arrow-up-right"></i>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- CONTACT -->
+
 <section id="contact" class="section contact-section">
     <div class="container">
         <div class="contact-card glass-card text-center reveal">
-
             <div class="section-label">05 — Contact</div>
-
-            <h2 class="contact-title">
-                Let's build something<br>
-                <span class="gradient-text">meaningful.</span>
-            </h2>
-
-            <p class="section-copy mx-auto">
-                Terbuka untuk kesempatan kerja, kolaborasi project,
-                dan diskusi seputar teknologi.
-            </p>
-
+            <h2 class="contact-title">Let's build something<br><span class="gradient-text">meaningful.</span></h2>
+            <p class="section-copy mx-auto">Terbuka untuk kesempatan kerja, kolaborasi project, dan diskusi seputar teknologi.</p>
             <div class="hero-socials justify-content-center mt-4">
-                <a href="https://github.com/hariscom11"
-                   aria-label="GitHub"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                </a>
-
-                <a href="https://www.linkedin.com/in/muhammad-haris-16476b24a/"
-                   aria-label="LinkedIn"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-
-                <a href="https://wa.me/6281358369671"
-                   aria-label="WhatsApp"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    <i class="bi bi-whatsapp"></i>
-                </a>
+                <a href="https://github.com/hariscom11" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-haris-16476b24a/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/6281358369671" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
             </div>
-
         </div>
     </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer">
-    <div class="container d-flex flex-wrap justify-content-between gap-3">
-        <span>© <span id="currentYear"></span> Muhammad Haris Suhud.</span>
-        <span>Built with HTML, CSS &amp; JavaScript.</span>
-    </div>
-</footer>
+<footer class="footer"><div class="container d-flex flex-wrap justify-content-between gap-3"><span>© 2026 Muhammad Haris Suhud.</span><span>Built with Laravel & Bootstrap.</span></div></footer>
 
-<!-- BOOTSTRAP JAVASCRIPT -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- PORTFOLIO JAVASCRIPT -->
-<script src="./js/portfolio.js"></script>
+<script src="js/portfolio.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Tahun otomatis pada footer
-    const yearElement = document.getElementById('currentYear');
-
-    if (yearElement) {
-        yearElement.textContent = new Date().getFullYear();
-    }
-
-    // Filter kategori project
     const filterButtons = document.querySelectorAll('.project-filter');
     const projectItems = document.querySelectorAll('.project-item');
 
     filterButtons.forEach(button => {
+
         button.addEventListener('click', function () {
 
             const filter = this.getAttribute('data-filter');
 
+            // Mengatur tombol aktif
             filterButtons.forEach(btn => {
                 btn.classList.remove('active');
             });
 
             this.classList.add('active');
 
+            // Menampilkan project berdasarkan kategori
             projectItems.forEach(item => {
 
-                const categories = (
-                    item.getAttribute('data-category') || ''
-                ).split(/\s+/);
+                const categories = item.getAttribute('data-category').split(' ');
 
-                const visible =
-                    filter === 'all' || categories.includes(filter);
+                if (filter === 'all' || categories.includes(filter)) {
+                    item.classList.remove('project-hidden');
+                } else {
+                    item.classList.add('project-hidden');
+                }
 
-                item.classList.toggle('project-hidden', !visible);
             });
+
         });
+
     });
 
-    // Mengatur carousel agar berhenti saat video aktif
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+
     document.querySelectorAll('.project-carousel').forEach(function (carouselElement) {
 
         const carousel = bootstrap.Carousel.getOrCreateInstance(carouselElement);
+
         const videos = carouselElement.querySelectorAll('video');
 
-        function updateActiveSlide() {
+        function aturSlideAktif() {
 
             const activeSlide = carouselElement.querySelector('.carousel-item.active');
-
-            const activeVideo = activeSlide
-                ? activeSlide.querySelector('video')
-                : null;
+            const activeVideo = activeSlide?.querySelector('video');
 
             if (activeVideo) {
                 carousel.pause();
@@ -880,36 +549,49 @@ document.addEventListener('DOMContentLoaded', function () {
 
         videos.forEach(function (video) {
 
+            // Ketika video diputar
             video.addEventListener('play', function () {
                 carousel.pause();
             });
 
+            // Ketika video dijeda
             video.addEventListener('pause', function () {
                 carousel.pause();
             });
 
+            // Ketika video selesai
             video.addEventListener('ended', function () {
                 carousel.next();
             });
 
         });
 
+        // Sebelum berpindah slide
         carouselElement.addEventListener('slide.bs.carousel', function () {
 
             videos.forEach(function (video) {
-                video.pause();
+
+                if (!video.paused) {
+                    video.pause();
+                }
+
                 video.currentTime = 0;
+
             });
 
         });
 
-        carouselElement.addEventListener('slid.bs.carousel', updateActiveSlide);
+        // Setelah berpindah slide
+        carouselElement.addEventListener('slid.bs.carousel', function () {
+            aturSlideAktif();
+        });
 
-        updateActiveSlide();
+        // Periksa slide pertama
+        aturSlideAktif();
+
     });
 
 });
 </script>
-
 </body>
 </html>
